@@ -1,0 +1,95 @@
+/*--- Header CSS Satrt ---*/
+.wrapper {
+    background: #fff;    
+  }
+  .header {
+    background: rgba(127, 99, 244, 0.24);
+    position: fixed;
+    width: 100%;
+    z-index: 160;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+  }
+  .header-fixed {
+    background: rgba(127, 99, 244);
+  }
+  .header-fixed .log-out a {
+    color: #ffff;
+  }
+  .weather-wrap {
+      margin: 120px 0 80px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .weather-title {
+    width: 320px;
+    height: 80px;
+    background: #7F63F4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .weather-title h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+  .log-out {
+    padding-right: 60px;
+  }
+  .log-out a {
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.3;
+    font-family: 'Oswald', sans-serif;
+  }
+  .log-out img {
+    margin-right: 10px;
+  }
+  .header-fixed .log-out img {
+    /* content: url(../images/sign-out-white.png); */
+  }
+  .menu-btn {
+    transition: 0.5s all ease;
+  }
+  .menu-btn span {
+    width: 21px;
+    height: 2px;
+    background: #242E3A;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .menu-btn span:last-child {
+    margin-bottom: 0;
+  }
+  .menu-btn.show span:nth-child(1) {
+    -webkit-transform: rotate(-50deg) translate(-5px, 8px);
+    transform: rotate(-50deg) translate(-2px, 6px);
+    transition: 0.5s all ease;
+  }
+  
+  .menu-btn.show span:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s all ease;
+  }
+  
+  .menu-btn.show span:nth-child(3) {
+    -webkit-transform: rotate(47deg) translate(-5px, -8px);
+    transform: rotate(47deg) translate(-4px, -9px);
+    transition: 0.5s all ease;
+  }
+  .header-menu {
+    position: relative;
+  }
+  
+  /*--- Header CSS End ---*/
+  

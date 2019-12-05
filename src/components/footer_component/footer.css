@@ -1,0 +1,20 @@
+/*--- Footer CSS Start ---*/
+.footer {
+    background: #fff;
+    padding: 30px 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    border-top: 1px solid #D9D9D9;
+  }
+  .footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+  .footer p a {
+    color: #7F63F4;
+  }
+  /*--- Footer CSS End ---*/
